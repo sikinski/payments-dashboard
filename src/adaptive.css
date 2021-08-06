@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1250px) {
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    header .logo img{
+        width: 90%;
+        height: 86%;
+    } 
+    .payments-left-search button {
+        width: 90px;
+    }
+    .payments-left-templates .template-block .template-icon {
+        width: 35px;
+        height: 17.5px;
+        padding: 9px 0;
+
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header .logo, nav {
+        display: none;
+    }
+    header {
+        justify-content: space-between;
+    }
+    header .menu-buttons, header .menu{
+        width: auto;
+    }
+    header .menu {
+        margin: 0;
+    }
+    header .menu .toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        font-size: 17px;
+        background: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .menu-buttons {
+        width: auto;
+    }
+    header .search {
+        width: calc(100% - 120px);
+        background: rgba(255,255,255, 0.8);
+    }
+    .search label {
+        margin: 12px 25px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    header .menu ul li, header .menu-buttons button {
+        margin: 0 7px;
+        font-size: 12px;
+    }
+    .search label {
+        margin: 12px 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    header .menu ul {
+        display: none;
+    }
+    .menu .toggle {
+        position: flex;
+    }
+}

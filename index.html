@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>openbank</title>
+    <link rel="stylesheet" href="src/general.css">
+    <link rel="stylesheet" href="src/adaptive.css">
+    <link rel="stylesheet" href="src/header.css">
+    <link rel="stylesheet" href="src/nav.css">
+    <link rel="stylesheet" href="src/main_left.css">
+    <link rel="stylesheet" href="src/main_right.css">
+    <link rel="stylesheet" href="src/footer.css">
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <div class="logo">
+                <a href="/">
+                    <img alt="" src="/img/logo.png">
+                    </a> 
+            </div>
+            <div class="menu">
+                <button class="toggle"><i class="fas fa-bars"></i></button>
+                <ul>
+                    <li><a href="#">Overview<br><span class="menu-active-icon white-icon"><i class="fas fa-chevron-up"></i></span></a></li>
+                    <li><a href="#">Payments<br><span class="menu-active-icon"><i class="fas fa-chevron-up"></i></span></a></li>
+                    <li><a href="#">Cards<br><span class="menu-active-icon white-icon"><i class="fas fa-chevron-up"></i></span></a></li>
+                    <li><a href="#">Account<br><span class="menu-active-icon white-icon"><i class="fas fa-chevron-up"></i></span></a></li>
+                    <li><a href="#">Admin<br><span class="menu-active-icon white-icon"><i class="fas fa-chevron-up"></i></span></a></li>
+                </ul>
+            </div>
+            <div class="menu-buttons">
+                <div class="search hidden">
+                    <label>
+                    <input type="text" placeholder="Type here to search"/>
+                </label>
+                </div>
+                <button><i class="fas fa-search"></i></button>
+                <button><i class="far fa-bell"></i></button>
+                <div class="header-avatar-min">
+                    <a href="#">
+                        <img src="/img/avatar.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- / header -->
+
+        <!-- nav -->
+        <nav>
+            <div class="nav-list">
+            <ul>
+                <li><span><i class="fas fa-user-friends"></i></span><a href="#">Accounts</a></li>
+                <li><span><i class="fas fa-exchange-alt"></i></span><a href="#">Transfer</a></li>
+                <li><span><i class="fab fa-swift"></i></span><a href="#">SWIFT</a></li>
+                <li><span><i class="fas fa-file-alt"></i></span><a href="#">Templates</a></li>
+                <li><span><i class="fas fa-sync-alt"></i></span><a href="#">Exchange</a></li>
+                <li><span><i class="fas fa-clipboard-list"></i></span><a href="#">Scheduled</a></li>
+            </ul>
+        </div>
+        </nav>
+        <!-- / nav -->
+
+        <!-- main -->
+        <main>
+            <div class="payments-left">
+                <h2>Services</h2>
+                <div class="payments-left-search">
+                    <label>
+                        <input type="text" placeholder="IBAN, account number"><i class="fas fa-search"></i>
+                    </label>
+                    <select name="" id="">
+                        <option>Home</option>
+                        <option>Office</option>
+                        <option>Something else</option>
+                    </select>
+                    <button>Search</button>
+                </div>
+                <div class="services">
+                    <div class="service service-1"><span><i class="fas fa-wifi"></i></span><p>Internet</p></div>
+                    <div class="service service-2"><span><i class="far fa-building"></i></span><p>Office</p></div>
+                    <div class="service service-3"><span><i class="fas fa-bolt"></i></span><p>Electricity</p></div>
+                    <div class="service service-4"><span><i class="fab fa-hotjar"></i></span><p>Gas</p></div>
+                    <div class="service service-5"><span><i class="fas fa-tint"></i></span><p>Water</p></div>
+                    <div class="service service-6 hidden"><span><i class="fas fa-thermometer-full"></i></span><p>Heating</p></div>
+                    <div class="service service-7 hidden"><span><i class="fas fa-trash"></i></span><p>Garbage removal</p></div>
+                    <div class="service service-8 hidden"><span><i class="fas fa-arrow-circle-up"></i></span><p>Elevator service</p></div>
+                    <div class="service service-9 hidden"><span><i class="fas fa-toilet"></i></span><p>Drainage</p></div>
+                    <div class="service service-10 hidden"><span><i class="fas fa-ellipsis-h"></i></span><p>More</p></div>
+                </div>
+                <span class="show-all-icon"><i class="fas fa-chevron-down"></i></span>
+                <div class="payments-left-templates">
+                    <div class="templates-header">
+                <h2>Templates</h2>
+                <p>/ 55 School Lane, Odessa <a href="#">edit</a></p>
+                <div class="templates-btns">
+                <button><i class="fas fa-cog"></i></button>
+                <button><i class="fas fa-plus"></i></button></div>
+                </div>
+                <div class="templates-block">
+                    <div class="template-block block-1">
+                        <div class="template-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="template-name">
+                            <a href="#">Insurance</a>
+                            <p>Property coverage</p>
+                        </div>
+                        <div class="template-accounts">
+                            <a href="#">10304</a>
+                            <p>Personal account</p>
+                        </div>
+                        <div class="template-date">
+                            <a href="#">7 Sep, 21</a>
+                            <p>Last payment</p>
+                        </div>
+                        <div class="template-income">
+                            <a href="#">- $ 500</a>
+                        </div>
+                    </div>
+
+                    <div class="template-block block-2">
+                        <div class="template-icon"><i class="far fa-circle"></i></div>
+                        <div class="template-name">
+                            <a href="#">Vehicle loan</a>
+                            <p>Enterprise</p>
+                        </div>
+                        <div class="template-accounts">
+                            <a href="#">10303</a>
+                            <p>Personal account</p>
+                        </div>
+                        <div class="template-date">
+                            <a href="#">4 Sep, 21</a>
+                            <p>Last payment</p>
+                        </div>
+                        <div class="template-income">
+                            <a href="#">- $ 14,500</a>
+                        </div>
+                    </div>
+                    
+                    <div class="template-block block-3">
+                        <div class="template-icon"><i class="far fa-square"></i></div>
+                        <div class="template-name">
+                            <a href="#">Office rent</a>
+                            <p>Enterprise</p>
+                        </div>
+                        <div class="template-accounts">
+                            <a href="#">10302</a>
+                            <p>Personal account</p>
+                        </div>
+                        <div class="template-date">
+                            <a href="#">1 Sep, 21</a>
+                            <p>Last payment</p>
+                        </div>
+                        <div class="template-income">
+                            <a href="#">- $ 76</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="payments-right">
+                <h2>New payment</h2>
+                <p class="clear-payment">Clear</p>
+                <div class="payment-avatars">
+                    <div class="avatar avatar-1"></div>
+                    <div class="avatar avatar-2"></div>
+                    <div class="avatar avatar-3"></div>
+                    <div class="avatar avatar-4"></div>
+                    <div class="avatar avatar-5 hidden"></div>
+                    <div class="avatar avatar-6 hidden"></div>
+                    <div class="avatar avatar-7 hidden"></div>
+                    <div class="avatar avatar-8 hidden"></div>
+                    <div class="avatar show-more"><i class="fas fa-ellipsis-h"></i></div>
+                </div>
+
+                <div class="transfer-to-card">
+                    <div class="from-card">
+                        <p>From the card</p>
+                        <img src="/img/front_of_card.png" alt="front-of-card">
+                        <label>
+                            <input class="num-of-card" type="number">
+                        </label>
+                        <a href="">Change <i class="fas fa-chevron-right"></i></a>
+                        <label>
+                            <input class="sum-of-transfer" type="number" placeholder="Sum (in dollars)">
+                        </label>
+                    </div>
+                    </div>
+                    <div class="recipients-card">
+                        <p>Recipient's card</p>
+                        <img src="/img/reverse_side_of_card.png" alt="reverse-side-of-card">
+                        <label>
+                            <input class="organization" type="text">
+                        </label>
+                        <a href="">Change <i class="fas fa-chevron-right"></i></a>
+                        <label>
+                            <input type="number" class="num-of-card" placeholder="Num of card">
+                        </label>
+                    </div>
+                    <div class="transfer-details">
+                        <div class="amount-block">
+                            <p>Amount</p>
+                            <label>
+                                <input type="number">
+                            </label>
+                        </div>
+                        <div class="empty-block"></div>
+                        <div class="currency-block">
+                            <p>Currency</p>
+                            <select name="currency-select">
+                                <option>UAH</option>
+                                <option>AED</option>
+                                <option>USD</option>
+                                <option>RUB</option>
+                                <option>GBP</option>
+                            </select>
+                        </div>
+                        </div>
+                        <div class="comment-block">
+                            <p>Comment</p>
+                            <label>
+                                <input type="text" placeholder="Type here...">
+                            </label>
+                    </div>
+                    <div class="transfer-buttons">
+                    <button class="transfer-btn">Transfer</button>
+                    <button class="save-as-template-btn">Save as template</button>
+                    </div>
+                </div>
+        </main>
+         <!-- / main -->
+         <footer>
+            <div class="description">
+                <p class="company-name">openbank.</p>
+                <p class="company-license">2021 openbank license <br> #19 from 06.05.2020</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/3dea964375.js" crossorigin="anonymous"></script>
+    <script src="header-scripts.js"></script>
+    <script src="main-scripts.js"></script>
+</body>
+</html>

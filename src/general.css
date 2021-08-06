@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'PyperFonts';
+    src: url(/fonts/Antonio-Light.ttf),
+    url(/fonts/VAG_World.otf);
+}
+.hidden {
+    display: none;
+}
+.container {
+    max-width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+}
+main {
+    position: relative;
+    display: flex;
+    height: auto;
+    margin-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style-type: none;
+}
+button {
+    border: none;
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+    transition: 0.5s;
+}
+h2 {
+    cursor: default;
+}

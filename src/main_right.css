@@ -1,0 +1,218 @@
+.payments-right {
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    padding: 30px 20px;
+}
+.payments-right p {
+    cursor: default;
+}
+.payments-right .clear-payment {
+    display: block;
+    float: right;
+    margin-top: -40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.payment-avatars {
+    display: flex;
+    position: relative;
+    margin: 30px -5px;
+}
+.payment-avatars .avatar {
+    width: 30px;
+    height: 27px;
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.avatar-1 {
+    background: url(/img/avatar_1.png);
+}
+.avatar-2 {
+    background: url(/img/avatar_2.png);
+}
+.avatar-3 {
+    background: url(/img/avatar_3.png);
+}
+.avatar-4 {
+    background: url(/img/avatar_4.png);
+}
+.avatar-5 {
+    background: url(/img/avatar_5.png);
+}
+.avatar-6 {
+    background: url(/img/avatar_6.png);
+}
+.avatar-7 {
+    background: url(/img/avatar_7.png);
+}
+.avatar-8 {
+    background: url(/img/avatar_8.png);
+}
+.payment-avatars .avatar {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.payment-avatars .show-more {
+    text-align: center;
+    background-color:#f4f4f4;
+}
+.payment-avatars .show-more .fas {
+    margin-top: 6px;
+}
+.transfer-to-card {
+    display: block;
+    margin-top: 20px;
+    height: 150px;
+}
+.transfer-to-card p {
+    opacity: 0.7;
+}
+.transfer-to-card img, .recipients-card img {
+    position: absolute;
+    width: 120px;
+    height: 80px;
+}
+.transfer-to-card .from-card label input, .recipients-card label input {
+    margin-left: 127px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.transfer-to-card .from-card a{
+    display: block;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -25px;
+    font-size: 12px;
+}
+.transfer-to-card .from-card a .fas {
+    font-size: 9px;
+}
+.transfer-to-card .from-card .num-of-card {
+    height: 34px;
+}
+.transfer-to-card .from-card .sum-of-transfer {
+    height: 40px;
+    width: 177px;
+    font-size: 25px;
+}
+.transfer-to-card .from-card .sum-of-transfer::placeholder {
+    font-size: 15px;
+}
+
+/**/
+.recipients-card {
+    display: block;
+    position: relative;
+    height: 150px;
+    margin-top: -20px;
+}
+.recipients-card p {
+    opacity: 0.7;
+    
+}
+.recipients-card label input {
+    margin-left: 127px;
+}
+.recipients-card .organization {
+    height: 30px;
+}
+.recipients-card a {
+    display: block;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -25px;
+    font-size: 12px;
+}
+.recipients-card .num-of-card {
+    height: 40px;
+    font-size: 17px;
+    width: 177px;
+}
+.recipients-card .num-of-card::placeholder {
+    font-size: 15px;
+}
+/**/
+.transfer-details {
+    display: flex;
+    position: relative;
+    height: 50px;
+}
+.transfer-details p {
+    opacity: 0.7;
+    font-size: 15px;
+}
+.transfer-details .amount-block, .transfer-details .currency-block {
+    display: flex;
+}
+.transfer-details .amount-block {
+    border-bottom: 1px solid black;
+}
+.transfer-details .amount-block label input {
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-left: 1px solid black;
+}
+.transfer-details .empty-block {
+    width: 40px;
+}
+.transfer-details .currency-block {
+    border-bottom: 1px solid black;
+}
+.transfer-details .currency-block select {
+    height: 25px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 12px;
+    background: none;
+    border: none;
+    border-left: 1px solid black;
+}
+.transfer-details .currency-block select:focus {
+    outline: none;
+}
+.comment-block {
+    display: flex;
+}
+.comment-block p {
+    opacity: 0.7;
+    font-size: 15px;
+}
+.comment-block label input {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    width: 240px;
+    height: 25px;
+    border: none;
+    border-left: 1px solid black;
+}
+.comment-block label input::placeholder {
+    font-size: 14px;
+}
+.transfer-buttons {
+    display: flex;
+    margin-top: 25px;
+}
+.transfer-btn {
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.save-as-template-btn {
+    width: 150px;
+    height: 50px;
+    background: none;
+    cursor: pointer;
+}
+.save-as-template-btn:hover {
+    background:rgb(228, 228, 228);
+    transition: 0.7s;
+}
